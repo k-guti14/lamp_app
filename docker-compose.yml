@@ -17,6 +17,8 @@ services:
     volumes:
       - ./php.ini:/usr/local/etc/php/php.ini
       - ./html:/var/www/html
+    ports:
+      - 8000:80
     depends_on:
       - mysql 
   phpmyadmin:
