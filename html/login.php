@@ -7,7 +7,7 @@
   <title>Blog</title>
 </head>
 <body>
-<form>
+  <form>
     <h1 class="h3 mb-3 fw-normal">ログイン画面</h1>
     <label class="visually-hidden">ユーザ名</label>
     <input type="text" name="name" class="form-control" placeholder="ユーザ名" required autofocus>
