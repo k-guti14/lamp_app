@@ -1,8 +1,8 @@
 <?php
 class connect{
   const DB_NAME = "blog";
-  const HOST = "localhost";
-  const USER = "user";
+  const HOST = "mysql";
+  const USER = "root";
   const PASS = "pass";
 
   private $dbh;
