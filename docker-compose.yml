@@ -5,6 +5,8 @@ services:
     image: mysql:5.7
     volumes:
       - ./mysql:/var/lib/mysql
+      - ./my.cnf:/etc/mysql/conf.d/my.cnf
+      - ./docker-entrypoint-initdb.d:/docker-entrypoint-initdb.d
     ports:
       - 3306:3306
     environment:
